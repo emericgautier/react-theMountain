@@ -1,10 +1,15 @@
 import React from "react";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Main from "./components/Main";
 
 const App = () => {
   return (
-    <div>
-      <h1>REACT</h1>
-    </div>
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
   );
 };
 
