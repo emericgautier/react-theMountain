@@ -10,7 +10,7 @@
 
 $font1: inter-bold, sans-serif;
 $font2: merri-light, serif;
-$black1: rgb(17,17,17);
+$black1: rgb(17, 17, 17);
 $white1: rgb(243, 243, 243);
 $grey1: rgb(209,209,209);
 $grey2: rgb(233,233,233);
@@ -48,6 +48,7 @@ body {
         position: absolute;
         height: 100%;
         width: 100%;
+        top: 0;
         left: 0;
         background: $black1;
         -webkit-animation: animBefore 1.5s ease forwards;
@@ -69,3 +70,17 @@ body {
     }
 }
 
+.btn {
+    @include title;
+    width: 170px;
+    height: 45px;
+    background: none;
+    border: 2px solid $black1;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
