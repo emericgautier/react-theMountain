@@ -6,15 +6,9 @@ import Main from "./components/Main";
 const App = () => {
   return (
     <>
-      <header>
-        <Header />
-      </header>
-      <main>
-        <Main />
-      </main>
-      <footer>
-        <Footer />
-      </footer>
+      <Header />
+      <Main />
+      <Footer />
     </>
   );
 };
